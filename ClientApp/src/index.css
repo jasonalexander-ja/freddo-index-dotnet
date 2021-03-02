@@ -1,0 +1,68 @@
+h1 {
+    font-family: Calibri;
+    font-weight: bold;
+    font-size: 70px;
+    text-align: center;
+    color: white;
+}
+.parent { 
+    display: flex; 
+    width: 100%;
+}
+.kpiHolder {
+    text-align: center;
+}
+.mainKpi{ 
+    justify-content: center;
+    background-color: white;
+    text-align: center;
+    border: none;
+}
+.line {
+    fill:none;
+    stroke:black;
+    stroke-width:3
+}
+body {
+    background-color: #4b1a73;
+}
+label {
+    float: left;
+    font-family: arial;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    margin-right: 3px;
+}
+.text {
+    font-family: arial;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+}
+.darText {
+    font-family: arial;
+    font-size: 13px;
+    font-weight: bold;
+    color: black;
+}
+.kpiText {
+    font-family: arial;
+    font-size: 15px;
+    color: black;
+}
+.errorText {
+    font-family: arial;
+    font-size: 13px;
+    font-weight: bold;
+    color: yellow;
+}
+
+.inputLine {
+    align-self: center;
+    margin-bottom: 25px;
+}
+.inputGroup {
+    float: left;
+}
+
